@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="icon" href="images/penguin.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <style>
         .font-bebas-neue{
@@ -17,14 +20,30 @@
         .font-roboto{
         font-family: "Roboto", serif;
         }
+        .montserrat-montserrat{
+        font-family: "Montserrat", serif;
+        }
 
     </style>
 </head>
 <body class="font-roboto">
     <header class="bg-[#FFFBF0] pl-4">
         <!-- Navbar start -->
-        <nav>
-
+        <nav class="flex justify-between max-w-7xl mx-auto max-w-100% pt-12">
+            <div class="flex items-center">
+              <img src="images/Frame.png" alt="">
+              <h1 class="montserrat-montserrat text-2xl font-bold ml-3">
+                <span class="text-[#A4BC46]">Penguin</span>
+                <span class="text-[#363958]">Fashion</span></h1>
+            </div>
+            <div class="font-roboto">
+              <ul class="flex gap-14">
+                <li><a class="text-xl text-[#3C3C3C] font-medium" href="">Home</a></li>
+                <li><a class="text-xl text-[#3C3C3C] font-medium" href="">Products</a></li>
+                <li><a class="text-xl text-[#3C3C3C] font-medium" href="">About</a></li>
+                <li><a class="text-xl text-[#3C3C3C] font-medium" href="">Contact Us</a></li>
+              </ul>
+            </div>
         </nav>
         <!-- Banner -->
         <div class="md:flex items-center md:justify-around">
@@ -50,7 +69,7 @@
             <h3 class="text-5xl sm:text-center lg:text-left mb-8 font-bold uppercase text-[#363958] font-bebas-neue">Women Jacket</h3>
 
             <!-- Jacket Container -->
-             <div class="grid grid-cols-1 md:grid-flow-col-2 lg:grid-cols-3 gap-x-8">
+             <div class="grid grid-cols-1 md:grid-flow-col-2 lg:grid-cols-3 gap-x-8 pl-4 pr-4">
                 <!-- Jacket card 1 -->
                  <div class="p-5 space-y-4 drop-shadow-lg border-2 rounded-3xl mb-6">
                      <img class="p-5 rounded-3xl bg-[#F1F1F1]" src="images/jacket-1.png" alt="Yellow Coat Jacket">
@@ -96,11 +115,12 @@
            </div>
          </section>
 
-         <section class="my-12 sm:m-4">
+         <!-- Man Jacket section -->
+         <section class="my-12">
             <h3 class="text-5xl md:text-center lg:text-left mb-8 font-bold uppercase text-[#363958] font-bebas-neue">Men Jacket</h3>
 
             <!-- Man Jacket Container -->
-             <div class="grid grid-cols-1 md:grid-flow-col-2 lg:grid-cols-3 gap-x-8">
+             <div class="grid grid-cols-1 md:grid-flow-col-2 lg:grid-cols-3 gap-x-8 pl-4 pr-4">
                 <!-- Jacket card 1 -->
                  <div class="p-5 space-y-4 drop-shadow-lg border-2 rounded-3xl mb-6">
                      <img class="p-5 rounded-3xl bg-[#F1F1F1]" src="images/jacket-4.png" alt="">
@@ -148,7 +168,7 @@
     </main>
     <footer class="max-w-7xl mx-auto">
       <!-- Shopping Container -->
-      <div class="flex flex-col md:flex-row flex-col-reverse pl-4 pr-4 gap-20 items-center mb-9">
+      <div class="flex flex-col lg:flex-row flex-col-reverse   pl-4 pr-4 gap-20 items-center mb-9">
         <div class="grid-cols-1">
           <div class="flex drop-shadow-lg rounded-3xl border items-center mb-4 p-6">
             <div>
